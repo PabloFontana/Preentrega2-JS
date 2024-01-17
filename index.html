@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/logocronoz.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animaciones.css">
+    <title>Inicio - Cronoz muebles industriales</title>
+    <meta name="description" content="Compra los mejores muebles industriles de Cronoz desde tu casa. Tenemos 
+    escritorios, muebles tv y más. Hacé tu pedido y pagalo online. ">
+    <meta name="keywords" content="HTML, ASP ,JS, META, MUEBLES, INDUSTRIAL, CARPINTERIA, ESCRITORIO, RACKTV, MESA,
+    CASA, DECORACION, MINIMALISTA, ENVIO">
+</head>
+
+<body>
+    <!--Seccion logo y navegacion-->
+    <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img id="logocronoz" src="./img/logocronoz.png"  alt="imagen de logo Cronoz" title="Logo Cronoz"> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+                <li class="nav-item   nav-perso">
+                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                </li>
+                <li class="nav-item dropdown  nav-perso">
+                    <a class="nav-link dropdown-toggle" href="./pages/productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Productos
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./pages/productos.html#top-cat">Living</a></li>
+                        <li><a class="dropdown-item" href="./pages/productos.html#ComedorCocina">Cocina/Comedor</a></li>
+                        <li><a class="dropdown-item" href="./pages/productos.html#Otros">Otros</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item   nav-perso">
+                <a class="nav-link" href="./pages/proyectosamedida.html">Proyectos a medida</a>
+                </li>
+                <li class="nav-item   nav-perso">
+                <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item   nav-perso">
+                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                    </li>
+            
+        </ul>
+        </div>
+        </div>
+    </nav>
+    </header>
+    
+    <div class="bloque-bienvenida">
+        <section class="marketing1">
+            <h1>Bienvenidos a Cronoz</h1>
+            <p>¡Bienvenido a nuestro mundo industrial de estilo único!</p>
+                <p>En Cronoz, te invitamos a explorar un universo fascinante donde la funcionalidad se encuentra con el diseño industrial. 
+                Sumérgete en nuestra exclusiva colección de muebles que fusionan la estética moderna con la robustez característica 
+                del estilo industrial.
+                Descubre la magia de transformar tu hogar u oficina con piezas que cuentan historias auténticas. Desde mesas de centro
+                hasta estanterías, cada artículo está cuidadosamente seleccionado para agregar un toque distintivo a tu espacio.
+                Explora, inspira y adquiere el encanto industrial para tu vida cotidiana. ¡Bienvenido a tu nuevo rincón de estilo!
+                </p>
+                <p>Cronoz - Donde el diseño industrial cobra vida.</p>
+        </section>
+    
+    <!--estas 3 imaganees pertenecen a las novedades actuales-->
+    <div id="carouselExample" class="carousel slide contenedorNovedades">
+        <div class="carousel-inner">
+            <h2  class="tituloNovedades titulo-3 ">Novedades/Ofertas</h2>
+            <div class="carousel-item active">
+            <a href="./pages/productos.html#escritorio"><img src="./img/escritorio3cajones.jpg" class="d-block w-100 NovedadesIMG" alt="Esta es una imagen de un escritorio que se encuentra en novedades de la pagina" title="Escritorio con cajones" ></a>
+            </div>
+            
+            <div class="carousel-item">
+                <a href="./pages/productos.html#mesasilla"><img src="./img/combo-comedor4sillas.jpg" class="d-block w-100 NovedadesIMG" alt="Esta es una imagen de un combo comedor con sillas incluidas que se encuentra en novedades de la pagina" title="Combo mesa + 4 sillas"></a>
+            </div>
+            
+            <div class="carousel-item">
+                <a href="./pages/productos.html#rack"><img src="./img/rack.jpg" class="d-block w-100 NovedadesIMG" alt="Esta es una imagen de un rack que se encuentra en novedades de la pagina" title="Rack para TV"></a>
+            </div>
+        
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+    <h2 class="CategoriaTitu">Categorias</h2>
+    <div class="Categorias">
+    <!--Aqui iran 3 imagenes sobre las categorias, cocina ,linving y otros-->    
+        <div class="categoria1">
+            <a href="./pages/productos.html#top-cat"><img src="./img/categorialiving.jpg" class="ImgCategorias" alt="Imagen de categoria Living"></a> 
+            <div class="texto-categoria">
+                <a href="./pages/productos.html#top-cat"><h2 class="CategoriaRedirec1">Living</h2></a>
+            </div>
+        </div>
+
+
+        <div class="categoria1">
+            <a href="./pages/productos.html#ComedorCocina"><img src="./img/categoriacocina.jpg" class="ImgCategorias" alt="Imagen de categoria Cocina"></a>
+            <div class="texto-categoria">
+                <a href="./pages/productos.html#ComedorCocina"><h2 class="CategoriaRedirec2">Cocina/Comedor</h2></a>
+            </div>
+        </div>
+        
+        <div class="categoria1">
+            <a href="./pages/productos.html#Otros"><img src="./img/categoriaotrs.jpg"  class="ImgCategorias" alt="Imagen de categoria Otros"></a>
+            <div class="texto-categoria">
+                <a href="./pages/productos.html#Otros"><h2 class="CategoriaRedirec3">Otros</h2></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+<!--Inicio de seccion Destacados-->
+<div class="DestacadosTodo">
+    <section class="Destacados">
+        <h2>DESTACADOS</h2>
+        <h3>Los preferidos de nuestros clientes </h3>
+    </section>  
+    <div class="ProductoDestacado ProductoDestacado2 card mb-3">
+        <img src="./img/combo-comedor4sillas.jpg" class="ImgDestacados" title="Mesa comedor combo" alt="Imagen de combo comedor mesa mas 4 sillas"> 
+            <h3>Combo comedor- Mesa + 4 sillas</h3> 
+            <p>Precio: $</p>
+            <button>Agregar al carrito</button>
+    </div>
+
+    <div class="ProductoDestacado ProductoDestacado2 card mb-3">
+        <img src="./img/escritorio3cajones.jpg" class="ImgDestacados" title="Escritorio" alt="Imagen escritorio con 3 cajones">
+            <h3>Escritorio con cajones</h3>
+            <p>Precio: $</p>
+            <button>Agregar al carrito</button>
+    </div>
+
+    <div class="ProductoDestacado ProductoDestacado2 card mb-3">
+        <img src="./img/mesaratonera.jpg" class="ImgDestacados" title="Mesa ratonera" alt="Imagen de mesa ratonera">
+            <h3>Mesa ratonera</h3>
+            <p>Precio: $</p>
+            <button>Agregar al carrito</button>
+    </div>
+    
+    <div class="ProductoDestacado ProductoDestacado2 card mb-3">
+        <img src="./img/rack.jpg" class="ImgDestacados" title="Rack para TV" alt="Imagen de rack para tv">
+            <h3>Rack para TV</h3>
+            <p>Precio: $</p>
+            <button>Agregar al carrito</button>
+    </div>
+    
+</div>
+    
+    <!--link hacia los productos-->
+    <section class="ProductoRedirec">
+        <a href="./pages/productos.html" class="TextRedirec1">VER TODOS LOS PRODUCTOS </a>
+    </section>
+
+
+<!--Seccion de publicidad ,envios, medios de pago y asesoria-->   
+<section class="Final">
+
+    <div class="final1">
+        <img src="./img/camionPNG.png" class="ImgResumen" alt="Imagen camion envios">
+        <p class="textfinal1">Envios gratis a todo el pais</p>
+    </div>
+    
+    <div class="final1">
+        <img src="./img/tarjetacredito.png" class="ImgResumen" alt="Imagen de medios de pago">
+        <p class="textfinal1">Todos los medios de pago</p>
+    </div>
+    
+    <div class="final1">
+        <img src="./img/iconowhatsapp.png" class="ImgResumen" alt="Icono whatsapp">
+        <p class="textfinal1">Asesoría  y presupuestos gratis</p>
+    </div>
+</section>
+
+
+
+<!-- redes -->
+<div class="iconos-sociales">
+    <a href="#logocronoz"><div class="social facebook"></div></a>
+    <a href="#logocronoz"><div class="social instagram"></div></a> 
+    <a href="#logocronoz"><div class="social pinterest"></div></a>
+</div>
+<!--Esta etiquetea footer es para poner pie, datos de contacto y link para volver al inicio-->
+
+<footer>
+    <section>
+        <h3>Navegacion</h3>
+            <ul class="sinPunto NavegacionFooter">
+            <li><a href="#logocronoz">Inicio</a></li>
+            <li><a href="./pages/productos.html">Productos</a></li>
+            <li><a href="./pages/nosotros.html">Nosotros</a></li>
+            <li><a href="./pages/proyectosamedida.html">Proyectos a medida</a></li>
+            <li><a href="./pages/contacto.html">Contactos</a></li>
+            </ul>
+    </section>
+
+    <section class="MediosdePago">
+        <!--medios de pago-->
+    <h3>Medios de pago</h3>
+    <img src="./img/mediosdepago.jpg" width="200px" alt="Imagen medios de pago disponibles">
+    </section>
+
+    <section class="Contactenos">
+        <!--contactenos-->
+        <h3>Contactenos</h3>
+        <ul class="sinPunto">
+            <li>
+                <img src="./img/telefonopng.png" class="icon-footer" alt="Logo telefono"> <span>343-4676324</span>
+            </li>
+            <li>    
+                <img src="./img/arroba.png" class="icon-footer" alt="Logo arroba"> <span>mueblescronoz@gmail.com</span>
+            </li>
+            <li>
+                <img src="./img/ubicaciongoogle.png" class="icon-footer" alt="Logo ubicacion google"> <span>Combatientes de Malvinas 1277</span>
+            </li>
+        </ul>
+    </section>
+
+    
+    <section class="RedesSociales">
+        <!--redes sociales-->
+        <h3>Registrate</h3>
+        <p>Regístrate con tu email para enterarte de las novedades y promociones!</p>
+        <!--formulario mail-->
+        <form action="" method="post">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="ejemplo@gmail.com">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Cancelar">
+        </form>
+    </section>
+    <div>
+    <img id="logocronoz2" src="./img/logocronoz.png" alt="imagen de logo Cronoz"> 
+    </div>
+</footer>
+
+<!-- Bootstrap js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
